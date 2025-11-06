@@ -1,0 +1,163 @@
+🧠 Ejercicio 1: Hola usuario
+Planteamiento:
+Quieres que el programa salude al usuario por su nombre.
+
+Piensa:
+¿Cómo se guarda un texto que el usuario escribe?
+en una variable de java
+
+¿Cómo se muestra un mensaje por pantalla?
+imprimiendo el valor de la variabale
+
+¿Cómo unir (concatenar) el texto “Hola” con el nombre?
+con el signo +
+
+Reto:
+Imagina que el usuario escribe “Carlos”. ¿Qué debería mostrar el programa?
+
+hola Carlos
+
+Ejercicio 2: Suma de dos números
+Planteamiento:
+El usuario introduce dos números, el programa debe mostrar su suma.
+
+Piensa:
+¿Qué tipo de datos representan los números?
+datos flotantes
+¿Qué operación matemática debes hacer?
+suma
+¿Cómo mostrar el resultado junto con un mensaje claro?
+se imprime en pantalla el valor de el resultado de la operación matematica
+Reto:
+Si el usuario escribe 8 y 12, ¿qué resultado esperas que aparezca?
+20
+
+Número par o impar
+Planteamiento:
+Determinar si un número es par o impar.
+
+Piensa:
+¿Qué significa que un número sea par? (¿qué operación lo demuestra?)
+la función modulo si el residuo es cero
+
+¿Qué pasa si el número no cumple esa condición?
+es impar
+
+¿Cómo plantearías la decisión en palabras, antes del código?
+si el resultado de la función modulo es cero es par en otro caso es impar
+
+
+Reto:
+Haz una lista rápida de 5 números y marca cuáles son pares e impares. ¿Cómo lo decides mentalmente?
+
+Planteamiento:
+El programa debe decir cuál de los dos números es mayor o si son iguales.
+
+Piensa:
+¿Qué comparaciones necesitas hacer entre los dos valores?
+si uno es mayor que el otro
+
+¿Qué resultados posibles existen?
+verdadero o falso
+
+¿Qué mensaje mostrarías en cada caso?
+el numero a es mayor que b,o el numero a es menor que b
+Reto:
+Si tienes los números 10 y 15, ¿qué debería decir el programa?
+si a vale 10 y b 15 entonces a es menor que b
+
+
+Mostrar la tabla de multiplicar de un número del 1 al 10.
+
+Piensa:
+¿Qué patrón sigue una tabla de multiplicar?
+numero *1,numero*2,......numero*n
+
+¿Qué sucede si el número cambia?
+se mantiene el patron
+
+¿Cómo repetirías una acción varias veces (repetición/loop)?
+con un for
+
+Reto:
+Imagina que el número es 4. Enumera mentalmente: 4×1, 4×2, 4×3... hasta 4×10. ¿Qué notas que se repite?
+
+numero *1,numero*2,......numero*n
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Mostrar todos los números desde el 1 hasta un número que el usuario indique.
+
+Piensa:
+¿Qué ocurre si el usuario pone 5?
+solo se mostrarían los números hasta el 5
+
+¿Cómo puedes generar una secuencia de números consecutivos?
+con un ciclo for
+
+¿Qué variable controlaría cuántas veces repites el proceso?
+el numero hasta el cual se debe de mostrar
+
+Reto:
+Hazlo tú: cuenta del 1 al número que quieras, pero imagina que una máquina lo hace. ¿Qué instrucciones necesitaría?
+
+un ciclo for y el numero hasta el cual se quiere contar
+==============================
+Planteamiento:
+Calcular la suma de los números del 1 al N.
+
+Piensa:
+¿Qué patrón sigue la suma? (1 + 2 + 3 + ... + N)
+sumar todos los números de uno a n
+¿Podrías ir sumando número por número?
+si
+¿Qué necesitas guardar durante el proceso?
+la suma de los mismos
+Reto:
+Si N = 5 → 1 + 2 + 3 + 4 + 5 = 15 ¿Cómo podrías llegar a ese 15 sin hacer la cuenta completa cada vez?
+con una función anonima
+
+ Ejercicio 8: Promedio de tres números
+Planteamiento:
+Calcular el promedio de tres valores numéricos.
+
+Piensa:
+¿Qué operación define el promedio?
+dividir
+¿Qué pasos necesitas para calcularlo (sumar → dividir)?
+sumar
+divivir entre el numero de elementos
+¿Qué tipo de resultado esperas (entero o decimal)?
+puede ser decimal tambien
+Reto:
+Si tienes 70, 80 y 90, ¿qué promedio obtienes?
+
+🧠 Ejercicio 9: Calificación aprobatoria
+Planteamiento:
+Decidir si una calificación es aprobatoria o reprobatoria.
+
+Piensa:
+¿Cuál es el valor mínimo para aprobar?
+6
+¿Qué comparación necesitas hacer?
+si el numero es mayor o menor al valor mínimo aceptado para aprobar
+¿Cómo expresas el resultado como texto (“Aprobado” o “Reprobado”)?
+con un condicional
+Reto:
+Si el usuario escribe 59, ¿qué diría tu programa? ¿Y si escribe 60?
+
+Ejercicio 10: Conversor de temperatura
+Planteamiento:
+Convertir grados Celsius a Fahrenheit.
+
+Piensa:
+¿Qué fórmula necesitas aplicar?
+F = (0×9/5)+32
+¿Qué pasos seguirías para obtener el resultado?
+recibir los grados a convertir
+¿Qué pasa si el usuario ingresa un número negativo?
+tendría que enviar una excepcion
+Reto:
+Si C = 0 → F = (0×9/5)+32 → 32 ¿Puedes hacerlo con otro valor, por ejemplo, C=100?
+si
+
+
